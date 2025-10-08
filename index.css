@@ -5,7 +5,7 @@
 }
 
 body{
-  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-family:  font-family 'Comic Sans MS', 'Comic Neue',cursive;
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
@@ -69,4 +69,40 @@ body{
     width: 150px;
     margin-left: 480px;
 
+} 
+
+@media screen and (max-width: 600px) {
+    body {
+        padding: 20px;
+    }
+
+    .sec2 img {
+        margin-left: 120px;
+        height: 50px;
+    }
+
+    .sec2 a {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
 }
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+        padding: 50px;
+    }
+
+    .sec2 img {
+        margin-left: 250px;
+        height: 60px;
+    }
+
+    .sec2 a {
+        margin-left: 190px;
+        width: 200px;
+        text-align: center;
+    }
+    
+}
+
