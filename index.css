@@ -123,7 +123,7 @@ body{
     }
 }
 
-@media screen and (max-width: 546px){
+/* @media screen and (max-width: 546px){
 
     .sec2 img{
         margin-left: 150px;
@@ -134,9 +134,9 @@ body{
         margin-top: 30px;
         
     }
-}
+} */
 
-@media screen and (max-width: 375px) {
+/* @media screen and (max-width: 375px) {
     .sec2 img{
         margin-left: 120px;
     }
@@ -157,7 +157,9 @@ body{
         font-size: 12px;
     }
     
-}
+} */
+
+
     
 
     
